@@ -10,13 +10,13 @@ body {
 }
 
 .half-width {
-    height: 550px;
+    height: 570px;
     background: #222436;
     padding: 30px;
     text-align: center;
 }
 .generate-btn{
-    margin-top: 180px;
+    margin-top: 140px;
     width: 180px;
     padding: 50px;
     border-radius: 50%;
@@ -35,18 +35,21 @@ body {
 input[type='text']{
     background-color: #3D4153;
     padding: 10px 0px;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #858299;
+    height: 50px;
+    padding: 10px;
+}
+input[type='text']:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
 }
 .numbers {
     margin: 30px 0;
 }
 
-.calc-operation {
-text-align: right;
-color: #727B86;
-font-size: 21px;
-padding-bottom: 10px;
-border-bottom: dotted 1px;
-}  
 .calc-typed {
 margin-top: 20px;
 font-size: 45px;
@@ -70,14 +73,8 @@ text-align: center;
 vertical-align: middle;
 margin-right: -4px;
 border-radius: 10px;
-transition: all 0.2s ease-in-out;
+cursor: pointer;
 }
-
-.button:hover {
-background: #E0B612;
-transform: rotate(5deg);
-}
-
 .blink-me {
 color: #E0B612;
 }
@@ -94,7 +91,11 @@ color: #E0B612;
     text-align: center;
     margin: 0 auto;
     background: #222436;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+}
+.action-left {
+    color: #FF3C5F;
+    margin-top: 10px;
 }
