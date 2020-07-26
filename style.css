@@ -86,7 +86,7 @@ color: #E0B612;
     background: #495BC3;
     color: #fff;
 }
-.alert {
+.notify {
     color: #fff;
     text-align: center;
     margin: 0 auto;
@@ -94,6 +94,10 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+}
+.notify-section{
+    width: 35%;
+    margin: 0 auto;
 }
 .action-left {
     color: #FF3C5F;
